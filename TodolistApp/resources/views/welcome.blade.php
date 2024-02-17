@@ -13,7 +13,8 @@
             <div class="text-center md:text-left">
                 <h1 class="text-4xl font-bold text-sky-500 mb-4">Organize Your Life with Our To Do List App !</h1>
                 <p class="text-lg text-gray-700 mb-8">Stay on top of your tasks, deadlines, and goals with our easy-to-use app. It's the perfect tool for busy individuals and teams.</p>
-                <a href="" class="inline-block bg-blue-400 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded shadow-md">View Your Tasks</a>
+               
+                <a href="{{ route('todos.index') }}" class="inline-block bg-blue-400 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded shadow-md">View Your Tasks</a>
                 <a href="" class="inline-block bg-yellow-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded shadow-md ml-4">Add New Task</a>
             </div>
             <div class="md:block flex items-center justify-center">
